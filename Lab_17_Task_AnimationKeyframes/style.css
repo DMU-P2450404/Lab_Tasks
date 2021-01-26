@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+}
+
+div {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(238,199,174);
+  background: radial-gradient(circle, rgba(238,199,174,1) 0%, rgba(238,174,220,1) 20%, rgba(178,144,221,1) 62%, rgba(148,187,233,1) 100%);
+  background-size: 400% 400%;
+
+  animation: colour_change 5s infinite;
+}
+
+@keyframes colour_change {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

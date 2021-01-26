@@ -1,0 +1,27 @@
+.menu {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  overflow: hidden;
+  transition: width 0.5s, height 0.5s, background-color 0.5s;
+}
+
+div {
+  opacity: 0;
+}
+
+
+.menu.out {
+  width: 70%;
+  height: 100vh;
+  background-color: purple;
+}
+
+.menuItem {
+  pointer-events: none;
+}
+
+.menu.out .menuItem {
+  pointer-events: all;
+  opacity: 1;
+}

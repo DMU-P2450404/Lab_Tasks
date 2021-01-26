@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <title></title>
+  </head>
+  <body>
+    <nav class="menu">
+      <div class="menuItem">Home</div>
+      <div class="menuItem">About</div>
+      <div class="menuItem">Film</div>
+    </nav>
+
+    <script>
+    toggleAnimation = (evt) => {
+      evt.target.classList.toggle("out");
+    };
+    document
+      .querySelector(".menu")
+      .addEventListener("click", toggleAnimation);
+  </script>
+
+  </body>
+</html>

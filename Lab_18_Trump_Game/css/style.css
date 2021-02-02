@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../img/rally.jpg");
+  background-size: cover;
+}
+
+#trump {
+  width: 100px;
+  transition: transform 0.2s;
+}
